@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Nazneen & Rayan vinimini",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
