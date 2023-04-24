@@ -25,3 +25,11 @@
     text-transform: uppercase;
     font-weight: lighter;
 }
+
+
+
+@media screen and (min-width: 930px ) {
+    .vinimini-header h1 {
+        font-size: 16px;
+    }
+}
