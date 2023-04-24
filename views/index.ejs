@@ -3,18 +3,35 @@
 
 <main>
 
-    
+<h1 class="main-title">
+    alle producten
+</h1>  
+<p class="product-test">
+    Doe altijd eerst de Vini Mini test voordat je onze producten koopt. Zo weet jij of je in 3 of 6 kleine stapjes kunt beginnen met voor het eerst allergenen te geven.
+</p>
 
+<p class="product-arts">
+    Overleg voor je begint altijd met een arts of het consultatiebureau.
+</p>
 
+<div class="image-div">
+    <img src="/pinda-producten.webp" alt="pinda producten" class="pinda-image">
+</div>
 
+<section class="border-img">
+
+<div class="producten-div"
+    <% categories.forEach(category => { %>
+        <article class="content_producten"> 
+            <h1 class="product-categorie-titel" ><%= category.titel %></h1>
+            <img class="article-img" src="/Ei.jpg">
+            <a class="product-btn" href="<%= category.titel %>"> Bekijk producten</a>
+        </article>
+    </a>
+</div>
+<% }); %>
+</section>
 </main>
 
-
-
-<footer>
-
-
-
-</footer>
 
 <%- include('./partials/foot') %>

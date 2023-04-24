@@ -39,7 +39,25 @@
     padding-left: 2px;
     padding-right: 2px;
     list-style: none;
-    
+}
+
+.navbar-icon-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 4rem;
+    margin-top: -5rem;
+    padding-right: 2px;
+    margin-left: 9rem;
+    list-style: none;
+}
+
+.navbar-icon-content {
+    cursor: pointer;
+}
+
+.navbar-icon-items p {
+    font-size: 12px;
 }
 
 .nav-content {
@@ -50,6 +68,89 @@
     transition: .2s;
 }
 
+.main-title {
+    text-align: center;
+    margin-top: 4rem;
+    color: var(--clr-green);
+    text-transform: uppercase;
+}
+
+.product-test {
+    border-top: 3px solid var(--clr-green);
+    padding-top: 13px;
+    /* text-align: center; */
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+    line-height: 1.3;
+    margin-top: .75em;
+}
+
+.product-arts {
+    font-size: smaller;
+    padding-left: 2.3rem;
+    margin-top: 1rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.image-div {
+    display: flex;
+    justify-content: center;
+}
+
+.pinda-image {
+    width: 20rem;
+    height: auto;
+}
+
+.border-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.producten-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 3px solid var(--clr-green);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1em;
+}
+
+.content_producten {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    border: 3px solid var(--clr-green);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1em;
+}
+
+.product-btn {
+    background-color: var(--clr-green);
+    border-radius: 8em;
+    cursor: pointer;
+    border: 2px solid var(--clr-green);
+    width: 10rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.article-img {
+    width: 10rem;
+    height: auto;
+}
+
 @media screen and (min-width: 930px ) {
     .vinimini-header h1 {
         font-size: 16px;
@@ -58,6 +159,12 @@
 
 @media screen and (max-width: 800px) {
     .navbar-items {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .navbar-icon-items {
         display: none;
     }
 }
