@@ -155,8 +155,9 @@
 
 
 .patroon-mobile{
-    width: 24em;
+    width: 20em;
     height: auto;
+    position: absolute;
 }
 
 
