@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: monsterrat, sans-serif;
+}
+
+
+:root {
+    --clr-yellow: #f4eb34;
+    --clr-green: #72afa6;
+    --top-margin: 0rem;
+    --left-margin: 0rem;
+    --right-margin: 0rem;
+}
+
+.vinimini-header {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    background-color: var(--clr-yellow);
+}
