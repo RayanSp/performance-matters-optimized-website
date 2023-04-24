@@ -3,7 +3,7 @@
 
     <main>
 
-        <h1 class="main-title">
+       <h1 class="main-title">
             alle producten
         </h1>
         <p class="product-test">
@@ -17,21 +17,21 @@
 
         <div class="image-div">
             <img src="/pinda-producten.webp" alt="pinda producten" class="pinda-image">
-        </div>
+        </div> 
 
-        <section class="border-img">
+        <section>
+            <% categories.forEach(categorie => { %>
+                <% if(categorie.titel==="Ei" || categorie.titel==="Pinda" ) { %>
+                    <article class="producten-div">
+                        <h2>
+                            <%= categorie.titel %>
+                        </h2>
+                        <img class="article-img" src="/<%=categorie.titel%>.jpg">
+                        <a class="product-btn" href="#">Bekijk producten</a>
+                    </article>
+                    <% } %>
+                        <% }); %>
 
-            <div class="producten-div" <% categories.forEach(category=> { %>
-                <article class="content_producten">
-                    <h1 class="product-categorie-titel">
-                        <%= category.titel %>
-                    </h1>
-                    <img class="article-img" src="/Ei.jpg">
-                    <a class="product-btn" href="<%= category.titel %>"> Bekijk producten</a>
-                </article>
-                </a>
-            </div>
-            <% }); %>
         </section>
     </main>
 
