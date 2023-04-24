@@ -18,3 +18,10 @@
     padding-bottom: .25rem;
     background-color: var(--clr-yellow);
 }
+
+.vinimini-header h1 {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
