@@ -14,8 +14,8 @@
 }
 
 .vinimini-header {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: var(--clr-yellow);
 }
 
