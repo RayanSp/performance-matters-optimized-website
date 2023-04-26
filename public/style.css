@@ -13,6 +13,10 @@
     --right-margin: 0rem;
 }
 
+nav{
+    margin: 1em 1em 0 1em;
+}
+
 .vinimini-header {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -27,7 +31,6 @@
 }
 
 .viniminilogo{
-    margin: 1em;
     width: 25%;
     height: 50%;
 }
