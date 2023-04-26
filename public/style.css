@@ -116,6 +116,8 @@
     padding: 1rem;
     margin: 2rem;
     border-radius: 1em;
+    z-index: 100;
+    position: relative;
 }
 
 
@@ -141,8 +143,14 @@
     width: 10em;
     height: auto;
     margin-left: 18em;
-    margin-top: -8em;
+    margin-top: -6rem;
+    position: absolute;
 }
+
+
+
+
+
 
 .certified{
     width: 4em;
@@ -172,7 +180,6 @@
     height: auto;
     position: absolute;
 }
-
 
 
 
