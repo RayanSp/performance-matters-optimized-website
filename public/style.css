@@ -15,6 +15,7 @@
 
 nav{
     margin: 2em 1em 0px 1em;
+    justify-content: space-between;
 }
 
 main{
@@ -36,25 +37,29 @@ main{
 .viniminilogo{
     width: 27%;
     height: auto;
+    justify-content: flex-start;
+    display: flex;
 }
 
 .navbar-items {
     /* display: flex; */
     flex-direction: row;
     justify-content: space-evenly;
-    padding-left: 2px;
-    padding-right: 2px;
+    /* padding-left: 2px;
+    padding-right: 2px; */
     list-style: none;
 }
 
 .navbar-icon-items {
+    justify-content: flex-end;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-left: 4rem;
-    margin-top: -5rem;
-    padding-right: 2px;
-    margin-left: 14rem;
+    gap: 1em;
+    /* justify-content: space-evenly; */ 
+    /* padding-left: 4rem; */
+    /* margin-top: -5rem;
+    padding-right: 2px; */
+    /* margin-left: 14rem; */
     list-style: none;
 }
 
