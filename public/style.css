@@ -14,9 +14,12 @@
 }
 
 nav{
-    margin: 1em 1em 0 1em;
+    margin: 2em 1em 0px 1em;
 }
 
+main{
+    margin-top: 3em;
+}
 .vinimini-header {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -31,12 +34,12 @@ nav{
 }
 
 .viniminilogo{
-    width: 25%;
-    height: 50%;
+    width: 27%;
+    height: auto;
 }
 
 .navbar-items {
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     justify-content: space-evenly;
     padding-left: 2px;
