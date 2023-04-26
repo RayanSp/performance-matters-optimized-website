@@ -15,6 +15,7 @@
 
 nav{
     margin: 2em 1em 0px 1em;
+    display: flex;
     justify-content: space-between;
 }
 
