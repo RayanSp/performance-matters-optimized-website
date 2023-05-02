@@ -28,6 +28,13 @@
 
 ## Bronnen 🌐
 
+<ul>
+<li>https://www.google.com</li>
+<li>https://www.cyclic.sh/</li>
+<li>https://www.figma.com</li>
+<li>https://api.vinimini.fdnd.nl</li>
+</ul>
+
 ## Licentie 🔒
 
 This project is licensed under the terms of the [MIT license](./LICENSE).
