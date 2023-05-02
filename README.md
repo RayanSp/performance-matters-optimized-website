@@ -28,7 +28,7 @@ hoe het werkt en wat je er mee kan. -->
 <ul>
 <li>VSCode</li>
 <li>Fimga</li>
-<li>Ipad</li>
+<li>Ipad (schetsen)</li>
 </ul>
 
 <strong>`GEBRUIKTE TECHNIEKEN 🪚`</strong>
