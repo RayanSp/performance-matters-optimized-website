@@ -24,7 +24,16 @@
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
 
 ## Installatie 🛠️
-1. Installeer Node 18.14.0 LTS
+1. Installeer `Node 18.14.0 LTS.`
+2. Fork deze leertaak.
+3. Code klonen naar Github Desktop.
+4. Code open in VSCode of een andere editor.
+5. Terminal open.
+6. `Npm install` (typen in je terminal, daarna enter druken).
+7. `Npm start` (typen in je terminal).
+8. Localhost:5000 (live link om je website te zien, link van de server).
+9. Project live zetten met `Cyclic.sh.`
+
 
 ## Bronnen 🌐
 
