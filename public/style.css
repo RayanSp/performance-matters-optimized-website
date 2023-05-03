@@ -215,6 +215,26 @@ main {
     .vinimini-header h1 {
         font-size: 16px;
     }
+
+    .viniminilogo {
+        width: 11%;
+        height: 100%;
+        margin-left: 2em;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+    nav {
+        margin: 2em 1em 0px 1em;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 16em;
+    }
+
+    .navbar-items {
+        list-style: none;
+        display: contents;
+    }
 }
 
 
