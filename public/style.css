@@ -225,7 +225,7 @@ main {
     }
 
     nav {
-        margin: 2em 1em 0px 1em;
+        margin: 4em 1em 0px 1em;
         display: flex;
         justify-content: space-between;
         margin-right: 16em;
@@ -239,6 +239,7 @@ main {
     .img-producten-beschrijving{
         display: flex;
         margin-right: 13em;
+        margin-top: -3em;
     }
 
     .producten-beschrijving{
@@ -273,8 +274,14 @@ main {
     .pinda-image {
         width: 20rem;
         height: auto;
-        margin-top: 4em;
+        margin-top: 8em;
         margin-bottom: 1em;
+        position: relative;
+        left: -9rem;
+    }
+
+    .image-div{
+        margin-top: -3em;
     }
 }
 
