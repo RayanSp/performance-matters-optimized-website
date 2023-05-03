@@ -13,7 +13,7 @@
   * [Licentie](#licentie)
 
 ## Beschrijving 📃
-<i>Het doel van deze sprint (project) is om een goed Performance (Optimized) en toegankelijk website te maken voor de opdrachtgever. Ons opdrachtgever is Vini Mini. Vini Mini verkoopt producten om vroegtijdig allergenen te voorkomen bij baby's en kinderen. We hebben een productpagina gemaakt voor de website van de opdrachtgever.</i>
+Het doel van deze sprint (project) is om een <i>goed Performance (Optimized) en toegankelijk website te maken voor de opdrachtgever.</i> Ons opdrachtgever is Vini Mini. Vini Mini verkoopt producten om vroegtijdig allergenen te voorkomen bij baby's en kinderen. We hebben een productpagina gemaakt voor de website van de opdrachtgever.
 > https://azure-ladybug-tam.cyclic.app/
 
 ## Gebruik 👨‍👩‍👧‍👦
