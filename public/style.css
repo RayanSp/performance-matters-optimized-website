@@ -277,12 +277,33 @@ main {
         margin-top: 8em;
         margin-bottom: 1em;
         position: relative;
-        left: -9rem;
+        left: -7rem;
     }
 
     .image-div{
         margin-top: -3em;
     }
+
+    .roelie{
+        display: flex;
+        margin-left: 11em;
+    }
+
+    .producten-div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border: 3px solid var(--clr-green);
+        padding: 1rem;
+        margin: 2rem;
+        border-radius: 1em;
+        z-index: 100;
+        position: relative;
+        width: 27em;
+    }
+    
 }
 
 
