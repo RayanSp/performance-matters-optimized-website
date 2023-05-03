@@ -13,7 +13,7 @@
   * [Licentie](#licentie)
 
 ## Beschrijving 📃
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
+<i>Het doel van deze sprint (project) is om een goed Performance (Optimized) en toegankelijk website te maken voor de opdrachtgever. We hebben een productpagina gemaakt voor de opdrachtgever.</i>
 > https://azure-ladybug-tam.cyclic.app/
 
 ## Gebruik 👨‍👩‍👧‍👦
