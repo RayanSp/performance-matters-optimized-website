@@ -1,0 +1,19 @@
+<%- include('./Partials/head') %>
+
+<main>
+
+    <% producten.producten.forEach(product => { %>
+        <h2>
+            <%= product.titel%>
+        </h2>
+        <p>
+            <%= product.prijs%>
+        </p>
+    <% }); %>
+
+</main>
+
+
+
+
+<%- include('./Partials/foot') %>

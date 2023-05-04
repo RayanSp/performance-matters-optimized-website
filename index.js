@@ -21,15 +21,16 @@ app.get('/', (request, response) => {
 })
 
 
-app.get('/Ei', async (request, response) => {
-  let productenUrl = url + '/producten'
+//test samen met roelie omg error
+app.get('/pinda-ei-producten', (request, response) => {
+  let query = request.query.categorieId
 
-  await fetchJson(productenUrl).then((data) => {
-    response.render('Ei', data )
-  })
+  let productenUrl = url + `/producten?categorieId=${query}`
+
+  fetchJson(productenUrl).then((data) => {
+    response.render('pinda-ei-producten', {producten: data});
+  });
 })
-
-
 
 
 
