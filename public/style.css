@@ -304,6 +304,22 @@ main {
         width: 27em;
     }
     
+    .producten-footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+        position: relative;
+        left: 1rem;
+        right: 1rem;
+        top: 11rem;
+    }
+
+    .certified {
+        margin-top: 0.5rem;
+    }
+
+    .copyright {
+        margin-top: 10rem;
 }
 
 
@@ -318,4 +334,4 @@ main {
     .navbar-icon-items {
         display: none;
     }
-}
+} 
