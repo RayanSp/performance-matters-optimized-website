@@ -66,6 +66,15 @@ main {
 }
 
 
+.navbar-icon-items-twee-iconen{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    list-style: none;
+    margin-right: -10rem;
+}
+
 .navbar-icon-content {
     cursor: pointer;
 }
@@ -322,6 +331,18 @@ main {
 
     .copyright {
         margin-top: 10rem;
+    }
+
+    .navbar-icon-items-twee-iconen {
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: row;
+        gap: 1em;
+        list-style: none;
+        margin-top: -0.5rem;
+        position: relative;
+        left: -4rem;
+     }
 }
 
 
@@ -337,4 +358,3 @@ main {
         display: none;
     }
 } 
-}
