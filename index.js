@@ -21,7 +21,7 @@ app.get('/', (request, response) => {
 })
 
 
-//test samen met roelie omg error
+// Route voor de producten
 app.get('/pinda-ei-producten', (request, response) => {
   let query = request.query.categorieId
 
