@@ -84,6 +84,13 @@ main {
     font-size: 12px;
 }
 
+.searchicon{
+    width: 22%;
+    height: auto;
+    position: relative;
+    top: 0.1rem;
+}
+
 
 .nav-content {
     text-decoration: none;
