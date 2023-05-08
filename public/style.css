@@ -53,6 +53,7 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     list-style: none;
+    display: none;
 }
 
 
