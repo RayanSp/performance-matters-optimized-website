@@ -421,6 +421,23 @@ main {
         position: absolute;
         display: block;
     }
+
+    /* ----USER STORY #20 STYLING---- */
+
+    .kader-producten{
+        display: flex;
+        align-items: center;
+        /* flex-direction: column; */
+        justify-content: space-evenly;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        border: 3px solid var(--clr-green);
+        padding: 1rem;
+        margin: 2rem;
+        border-radius: 1em;
+        z-index: 100;
+        position: relative;
+    }
 }
 
 
