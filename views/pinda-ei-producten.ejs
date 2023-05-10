@@ -10,8 +10,8 @@
     <div class="kader-producten">
     
         <picture>
-            <source srcset="" type="image/">
-            <img class="pindaproducten" src=" <%= product.plaatjes[0].url %>" loadling="lazy" alt="pindaofeiproducten">
+            <source  type="image/webp" srcset=" <%= product.plaatjes.smallAsWebP %> <%= product.plaatjes.originalAsWebP %>  <%= product.plaatjes.width %> ">
+            <img class="pindaproducten" src=" <%= product.plaatjes[0].url %>" loading="lazy" alt="pindaofeiproducten">
         </picture>
        
         <h2 class="titelproducten">
