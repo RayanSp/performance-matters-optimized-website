@@ -105,7 +105,10 @@ nav {
     font-size: 1rem;
     transition: .2s;
 }
-
+.nav-content:hover {
+    color: var(--clr-green);
+    border-bottom: 2px solid var(--clr-green);
+}
 
 .p-menu {
     margin-left: -0.2em;
