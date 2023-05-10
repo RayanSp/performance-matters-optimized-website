@@ -37,7 +37,7 @@ app.get('/pinda-ei-producten', (request, response) => {
 
 
 // Stel het poortnummer in en start express
-app.set('port', process.env.PORT || 6000)
+app.set('port', process.env.PORT || 5000)
 app.listen(app.get('port'), function () {
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
