@@ -22,7 +22,7 @@ app.get('/', (request, response) => {
 
 
 // Route voor de producten
-app.get('/pinda-ei-producten', (request, response) => {
+app.get('/categorie', (request, response) => {
   let query = request.query.categorieId
 
   let productenUrl = url + `/producten?categorieId=${query}`
@@ -32,14 +32,18 @@ app.get('/pinda-ei-producten', (request, response) => {
   });
 })
 
-app.get('/pinda-producten', (request, response) => {
-  let query = request.query.categorieId
 
-  let productenUrl = url + `/producten?categorieId=${query}`
+app.get('/product', (request, response) => {
+  let query = request.query.id
 
+  let productenUrl = url + `/product?id=${query}`
+  console.log(productenUrl)
   fetchJson(productenUrl).then((data) => {
-    response.render('pinda-producten', {producten: data});
+    console.log(data)
+    response.render('pinda-product', data);
   });
+
+  
 })
 
 
@@ -47,7 +51,7 @@ app.get('/pinda-producten', (request, response) => {
 
 
 // Stel het poortnummer in en start express
-app.set('port', process.env.PORT || 8000)
+app.set('port', process.env.PORT || 5000)
 app.listen(app.get('port'), function () {
   console.log(`Application started on http://localhost:${app.get('port')}`)
 })
