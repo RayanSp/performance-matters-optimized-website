@@ -1,8 +1,11 @@
 <%- include('./Partials/head') %>
 
-<main>
+<main class="main-product">
 
+
+<!-- <section class="producten-section"></section> -->
     <% producten.producten.forEach(product => { %>
+
 
     <div class="kader-producten">
     
@@ -13,16 +16,19 @@
         <h2 class="titelproducten">
             <%= product.titel%>
         </h2>
-
-        <p class="prijs">
-          <span>&euro;</span>  <%= product.prijs%>
-        </p>
-
-        <a class="button-producten" href="#"><img src="/chevron-right.svg" alt="iconarrow"></a>
-
-    </div>
         
+        
+        <div class="prijs-button">
+            <p class="prijs-product">
+                <span>&euro;</span>  <%= product.prijs%>
+            </p>
+
+            <a class="button-producten" href="pinda-producten?categorieId=<%=categorie.id%>"><img src="/chevron-right.svg" alt="iconarrow"></a>
+        </div>
+    </div>
+      
     <% }); %>
+<!-- </section> -->
 
 </main>
 

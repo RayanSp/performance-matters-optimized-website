@@ -32,6 +32,16 @@ app.get('/pinda-ei-producten', (request, response) => {
   });
 })
 
+app.get('/pinda-producten', (request, response) => {
+  let query = request.query.categorieId
+
+  let productenUrl = url + `/producten?categorieId=${query}`
+
+  fetchJson(productenUrl).then((data) => {
+    response.render('pinda-producten', {producten: data});
+  });
+})
+
 
 
 
