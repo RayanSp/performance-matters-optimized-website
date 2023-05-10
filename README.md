@@ -2,6 +2,8 @@
 
 # ✨ Vini Mini productpagina ✨
 
+<img width="500" alt="" src="https://github.com/Nazneen05x/performance-matters-optimized-website/assets/112861261/b26ca1e4-2c2e-4de9-83d8-92e1b16cc52b">
+
 
 ## Inhoudsopgave 📚
 
