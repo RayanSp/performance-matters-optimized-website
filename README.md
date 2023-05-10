@@ -38,7 +38,10 @@ hoe het werkt en wat je er mee kan. -->
 <li>EJS</li>
 <li>CSS</li>
 <li>Javascript</li>
+<li>Performnance</li>
 </ul>
+
+> Lees in ons Living Styleguide, welke Performance Technieken we hebben toegepast op ons website voor de opdrachtgever: https://github.com/RayanSp/livingstyleguide-performance
 
 <strong>`🗣️ COMMUNICATIE MIDDELEN`</strong>
 <ul>
