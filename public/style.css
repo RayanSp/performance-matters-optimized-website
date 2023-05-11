@@ -260,7 +260,6 @@ nav {
     margin-left: 2.5em;
 }
 
-
 .patroon-mobile {
     width: 20em;
     height: auto;
@@ -273,9 +272,9 @@ nav {
 }
 
 .titelproducten {
-    font-weight: normal !important;;
     font-size: 18px;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 .prijs-button {
@@ -286,6 +285,7 @@ nav {
 }
 
 .prijs-product {
+    margin-bottom: 1rem;
     padding-right: 10px;
 }
 
@@ -305,6 +305,7 @@ nav {
 .product-main {
     margin-left: 2rem;
     margin-right: 2rem;
+    margin-top: 3rem;
 }
 
 .navbar-icon-content {
@@ -343,6 +344,16 @@ nav {
 .button-buy:hover {
     background-color: white;
     color: black;
+}
+
+.beschrijving-titel {
+    margin-top: 2rem;
+}
+
+.beschrijving-product {
+    border-top: 3px solid var(--clr-green);
+    padding-top: 15px;
+    margin-top: 1rem;
 }
 
 
