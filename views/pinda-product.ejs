@@ -1,6 +1,6 @@
 <%- include('./Partials/head') %>
 
-
+<main class="product-main">
 
 <picture>
     <img class="pindaproducten" src=" <%= product.plaatjes[0].url %>" alt="pindaofeiproducten">
@@ -15,11 +15,12 @@
     <span>&euro;</span>  <%= product.prijs%>
 </p>
 
-<button>Toevoegen<img src="/shopping-cart.svg" class="navbar-icon-content" alt="iconshoppingcar"></button>
-<button>Nu Kopen</button>
+<button type="button" class="button-shopcart">Toevoegen</button>
+<button type="button" class="button-buy">Nu Kopen</button>
 
 <p><%= product.beschrijving.html %> </p>
 
-
+</main>
 
 <%- include('./Partials/foot') %>
+

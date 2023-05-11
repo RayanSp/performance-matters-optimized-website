@@ -84,12 +84,6 @@ nav {
     margin-right: -8rem;
 }
 
-
-.navbar-icon-content {
-    cursor: pointer;
-}
-
-
 .searchicon {
     width: 22%;
     height: auto;
@@ -307,6 +301,51 @@ nav {
 .button-producten:hover {
     background-color: var(--clr-blue);
 }
+
+.product-main {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar-icon-content {
+    cursor: pointer;
+    padding-left: 3px;
+}
+
+.button-shopcart {
+    height: 30px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid var(--clr-green);
+    border-radius: 15px;
+    width: 8rem;
+    height: 2rem;
+    transition: .2s;
+}
+
+.button-shopcart:hover {
+    background-color: var(--clr-green);
+    color: white;
+}
+
+.button-buy {
+    height: 30px;
+    cursor: pointer;
+    background-color: var(--clr-green);
+    color: white;
+    border: 1px solid var(--clr-green);
+    border-radius: 15px;
+    width: 8rem;
+    height: 2rem;
+    transition: .2s;
+}
+
+.button-buy:hover {
+    background-color: white;
+    color: black;
+}
+
+
 
 /* ----MEDIA QUERY----  */
 
