@@ -41,7 +41,7 @@ hoe het werkt en wat je er mee kan. -->
 <li>Performnance</li>
 </ul>
 
-> Lees in ons Living Styleguide, welke Performance technieken we hebben toegepast op de website van de opdrachtgever: https://github.com/RayanSp/livingstyleguide-performance
+> Lees in ons Living Styleguide, welke Performance technieken we hebben toegepast op de website van de opdrachtgever: https://github.com/RayanSp/livingstyleguide-performance/wiki/Living-styleguide
 
 <strong>`🗣️ COMMUNICATIE MIDDELEN`</strong>
 <ul>
