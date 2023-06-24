@@ -19,7 +19,7 @@ Het doel van deze sprint (project) is om een <i>goed Performance (Optimized) en 
 > https://azure-ladybug-tam.cyclic.app/
 
 ## Gebruik 👨‍👩‍👧‍👦
-Voor de website van Vini Mini, hebben we een productpagina gemaakt. Uw kunt alle producten zien van pinda bekijken en de informatie lezen over het product.
+Voor de website van Vini Mini, hebben we een productpagina gemaakt. Uw kunt alle producten van pinda bekijken en de informatie lezen. De productenpagina kunt u bekijken op u mobiel en desktop (laptop).
 
 `#23. Als ouder wil ik een overzicht zien van alle voedingssupplement producten, zodat ik kan achterhalen of er een geschikt product voor mijn Vini Mini bij zit.`
 
