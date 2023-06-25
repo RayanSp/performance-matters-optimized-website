@@ -19,11 +19,12 @@ Het doel van deze sprint (project) is om een <i>goed Performance (Optimized) en 
 > https://azure-ladybug-tam.cyclic.app/
 
 ## Gebruik 👨‍👩‍👧‍👦
+Voor de website van Vini Mini, hebben we een productpagina gemaakt. Uw kunt alle producten van pinda bekijken en de informatie lezen. De productenpagina kunt u bekijken op u mobiel en desktop (laptop).
+
 `#23. Als ouder wil ik een overzicht zien van alle voedingssupplement producten, zodat ik kan achterhalen of er een geschikt product voor mijn Vini Mini bij zit.`
 
 `#20. Als ouder wil ik van een product informatie en het stappenplan kunnen bekijken, zodat ik kan beslissen of ik een product wil kopen.`
-<!-- Bij Gebruik staat de user story, 
-hoe het werkt en wat je er mee kan. -->
+
 
 ## Kenmerken 🖇️
 <strong>`TOOLS 🧰`</strong>
@@ -41,7 +42,7 @@ hoe het werkt en wat je er mee kan. -->
 <li>Performnance</li>
 </ul>
 
-> Lees in ons Living Styleguide, welke Performance technieken we hebben toegepast op de website van de opdrachtgever: https://github.com/RayanSp/livingstyleguide-performance
+> Lees in ons Living Styleguide, welke Performance technieken we hebben toegepast op de website van de opdrachtgever: https://github.com/RayanSp/livingstyleguide-performance/wiki/Living-styleguide
 
 <strong>`🗣️ COMMUNICATIE MIDDELEN`</strong>
 <ul>
@@ -58,7 +59,7 @@ hoe het werkt en wat je er mee kan. -->
 6. `Npm install` (typen in je terminal, daarna enter druken).
 7. `.gitignore` (aparte file aanmaken (VSCode, editor) en dan node_modules schrijven in de file)
 8. `Npm start` (typen in je terminal).
-9. Localhost:5000 (live link om je website te zien, link van de server).
+9. Localhost:8000 (live link om je website te zien, link van de server).
 10. Project live zetten met `Cyclic.sh.`
 
 
